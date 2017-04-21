@@ -2646,7 +2646,7 @@
           "lib/netstandard1.1/xunit.runner.utility.dotnet.dll": {}
         }
       },
-      "Mmr.Image.Processors/1.0.0": {
+      "src/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.0",
         "dependencies": {
@@ -2656,12 +2656,6 @@
           "Amazon.Lambda.Serialization.Json": "1.0.1",
           "Microsoft.NETCore.App": "1.0.0",
           "TinyPNG": "2.0.0"
-        },
-        "compile": {
-          "netcoreapp1.0/Mmr.Image.Processors.dll": {}
-        },
-        "runtime": {
-          "netcoreapp1.0/Mmr.Image.Processors.dll": {}
         }
       }
     }
@@ -7873,10 +7867,9 @@
         "xunit.runner.utility.nuspec"
       ]
     },
-    "Mmr.Image.Processors/1.0.0": {
+    "src/1.0.0": {
       "type": "project",
-      "path": "../Mmr.Image.Processors/project.json",
-      "msbuildProject": "../Mmr.Image.Processors/Mmr.Image.Processors.xproj"
+      "path": "../../src/project.json"
     }
   },
   "projectFileDependencyGroups": {
@@ -7886,8 +7879,8 @@
       "Amazon.Lambda.S3Events >= 1.0.1",
       "Amazon.Lambda.TestUtilities >= 1.0.*",
       "Microsoft.NETCore.App >= 1.0.0",
-      "Mmr.Image.Processors >= 1.0.0",
       "dotnet-test-xunit >= 2.2.0-*",
+      "src >= 1.0.0-*",
       "xunit >= 2.1.0-*"
     ],
     ".NETCoreApp,Version=v1.0": []
